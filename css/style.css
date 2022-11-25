@@ -1,0 +1,85 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: orange;
+  inline-size: 700px;
+  overflow-wrap: break-word;
+  hyphens: manual;
+}
+
+h1 {
+  color: #333;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 10px;
+  text-align: justify;
+}
+
+/* Path: css\style.css */
+h2 {
+  color: #333;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 10px;
+  text-align: justify;
+}
+
+/* Path: css\style.css */
+p {
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0px;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+/* Path: css\style.css */
+a {
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
+  text-align: justify;
+}
+
+ol {
+  margin: 4px;
+  padding-left: 32px;
+}
+
+ul {
+  margin: 4px;
+  padding-left: 20px;
+}
+
+ol>li::marker {
+  font-weight: bold;
+}
+
+/* Path: css\style.css */
+li {
+  color: #333;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0px;
+  text-align: justify;
+  list-style-position: outside;
+  padding-left: 0px;
+}
+
+img {
+  max-width: 400px;
+  height: auto;
+  margin: 5px;
+  border: 2px solid #333;
+}
+
+#pizza {
+  width: auto;
+  height: auto;
+  margin: 5px;
+  border: 2px solid #333;
+}
